@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('platform_settings', function (Blueprint $table) {
+            $table->id();
+            $table->string('key')->unique(); // Setting key (e.g., 'platform_name', 'enable_registration')
+            $table->text('value')->nullable(); // Setting value
+            $table->string('type')->default('string'); // Type: string, boolean, integer, json
+            $table->string('group')->default('general'); // Group: branding, features, payment, email
+            $table->text('description')->nullable(); // Human-readable description
+            $table->timestamps();
+            
+            // Indexes
+            $table->index('key');
+            $table->index('group');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('platform_settings');
+    }
+};
