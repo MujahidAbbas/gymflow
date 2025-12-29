@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cartogopher": {
+      "command": "node",
+      "args": ["/Users/mujahid/Downloads/cartogopher-macos-apple-silicon/cartogopher-mcp-v3.js"],
+      "env": {
+        "CURSOR_WORKSPACE": "/Users/mujahid/Herd/gymflow",
+        "CARTOGOPHER_API_KEY": "${CARTOGOPHER_API_KEY}"
+      }
+    }
+  }
+}

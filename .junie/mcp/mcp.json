@@ -3,7 +3,7 @@
         "laravel-boost": {
             "command": "/Users/mujahid/Library/Application Support/Herd/bin/php83",
             "args": [
-                "/Users/mujahid/Herd/gym/artisan",
+                "/Users/mujahid/Herd/gymflow/artisan",
                 "boost:mcp"
             ]
         },
