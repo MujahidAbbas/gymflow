@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏋️ GymFlow (FitHub SaaS)
+# 🏋️ GymFlow
 
 ### Enterprise Gym Management & Multi-Tenant SaaS Platform
 
@@ -20,7 +20,7 @@ A comprehensive, production-ready gym management system built with Laravel 12, f
 
 ## 📋 About The Project
 
-**GymFlow** (FitHub SaaS) is a full-featured, multi-tenant gym management platform designed to handle all aspects of fitness center operations. Built with modern Laravel practices, this project demonstrates enterprise-level application architecture, payment integration, security best practices, and comprehensive testing.
+**GymFlow** is a full-featured, multi-tenant gym management platform designed to handle all aspects of fitness center operations. Built with modern Laravel practices, this project demonstrates enterprise-level application architecture, payment integration, security best practices, and comprehensive testing.
 
 ### 🎯 Purpose
 
@@ -345,25 +345,6 @@ php artisan test --filter=testUserCanLogin
 ```bash
 php artisan test --coverage
 ```
-
----
-
-## 📚 Documentation
-
-Comprehensive documentation is available in the `/docs` directory:
-
-- **[Product Requirements (PRD)](docs/FitHub_SaaS_PRD.md)** - Complete feature specifications
-- **[Implementation Plan](docs/Implementation_Plan.md)** - 16-phase development roadmap
-- **[Database Schema & ERD](docs/01_Database_Schema_ERD.md)** - All 44 tables with relationships
-- **[Controllers & Routes Reference](docs/02_Controllers_Routes_Reference.md)** - 40 controllers, 160+ routes
-- **[Authentication & Security](docs/03_Authentication_Security.md)** - 2FA, email verification, RBAC
-- **[Payment Integration Guide](docs/04_Payment_Integration_Guide.md)** - Stripe & PayPal setup
-- **[Helper Functions Reference](docs/05_Helper_Functions_Reference.md)** - Utility functions
-- **[Frontend UI Architecture](docs/06_Frontend_UI_Architecture.md)** - Velzon template guide
-- **[Knowledge Base Index](docs/Knowledge_Base_Index.md)** - Master navigation
-- **[Deployment Guide](docs/Deployment_Guide.md)** - Production deployment steps
-- **[Quick Reference](docs/Quick_Reference.md)** - Developer cheat sheet
-- **[Architecture Diagrams](docs/Architecture_Diagrams.md)** - 15+ visual diagrams
 
 ---
 
