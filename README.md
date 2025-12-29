@@ -8,11 +8,11 @@ A comprehensive, production-ready gym management system built with Laravel 12, f
 
 [![Laravel](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.3-blue.svg)](https://php.net)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC.svg)](https://tailwindcss.com)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC.svg)](https://tailwindcss.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[Features](#-features) • [Tech Stack](#-tech-stack) • [Installation](#-installation) • [Documentation](#-documentation) • [Demo](#-demo-credentials) • [Contributing](#-contributing)
+[Features](#-features) • [Tech Stack](#-tech-stack) • [Installation](#-installation) • [Demo](#-demo-credentials) • [Contributing](#-contributing)
 
 </div>
 
@@ -151,14 +151,6 @@ This is an **open-source portfolio project** showcasing:
 - **Impersonation:** Lab404/Laravel Impersonate
 - **DataTables:** Yajra/Laravel-DataTables
 - **UI Scaffolding:** Laravel/UI
-
----
-
-## 📸 Screenshots
-
-> *Screenshots will be added to showcase the dashboard, member management, class scheduling, and payment integration interfaces.*
-
-> **Note:** Screenshots coming soon. To add screenshots, create a `/docs/screenshots/` directory.
 
 ---
 
@@ -348,150 +340,15 @@ php artisan test --coverage
 
 ---
 
-##  Deployment
-
-### Production Checklist
-
-- [ ] Set `APP_ENV=production` in `.env`
-- [ ] Set `APP_DEBUG=false`
-- [ ] Configure production database
-- [ ] Set up production mail server (SendGrid, Mailgun, SES)
-- [ ] Configure Stripe/PayPal production keys
-- [ ] Set up SSL certificate (Let's Encrypt)
-- [ ] Configure queue worker (`supervisor` for `queue:work`)
-- [ ] Set up task scheduler cron job
-- [ ] Configure file storage (S3, DigitalOcean Spaces)
-- [ ] Set up application monitoring (Sentry, Bugsnag)
-- [ ] Run `php artisan optimize` for caching
-- [ ] Set secure session & cookie settings
-- [ ] Configure CORS if using API
-- [ ] Set up backups (database & files)
-
-### Quick Deploy Commands
-
-```bash
-# Optimize for production
-php artisan config:cache
-php artisan route:cache
-php artisan view:cache
-php artisan event:cache
-
-# Build production assets
-npm run build
-
-# Run migrations (production)
-php artisan migrate --force
-
-# Clear all caches
-php artisan optimize:clear
-```
-
-### Recommended Hosting
-- **Laravel Forge** (managed Laravel hosting)
-- **Ploi** (alternative managed hosting)
-- **DigitalOcean App Platform**
-- **AWS Elastic Beanstalk**
-- **Railway** (free tier available)
-- **Fly.io** (container-based)
-
----
-
 ## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. **Commit your changes**
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. **Push to the branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. **Open a Pull Request**
-
-### Contribution Guidelines
-
-- Follow existing code style (PSR-12)
-- Write tests for new features
-- Update documentation as needed
-- Keep PRs focused and atomic
-- Write meaningful commit messages
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a Pull Request.
 
 ---
 
 ## 📝 License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
-```
-MIT License
-
-Copyright (c) 2025 Mujahid
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
-
-## 🙏 Acknowledgments
-
-- [Laravel Framework](https://laravel.com) - The PHP framework for web artisans
-- [Velzon Admin Template](https://themeforest.net/item/velzon-admin-dashboard-template/) - Premium admin dashboard
-- [Spatie Laravel Permission](https://spatie.be/docs/laravel-permission) - Role & permission package
-- [Yajra DataTables](https://yajrabox.com/docs/laravel-datatables) - Server-side DataTables
-- [Stripe](https://stripe.com) & [PayPal](https://paypal.com) - Payment processing
-
----
-
-## 📊 Project Stats
-
-![Lines of Code](https://img.shields.io/badge/Lines_of_Code-50K+-blue)
-![Models](https://img.shields.io/badge/Models-37-green)
-![Controllers](https://img.shields.io/badge/Controllers-40-orange)
-![Routes](https://img.shields.io/badge/Routes-160+-red)
-![Tests](https://img.shields.io/badge/Tests-28-purple)
-![Database Tables](https://img.shields.io/badge/Tables-44-yellow)
-
----
-
-## 🎯 Roadmap
-
-Future enhancements planned:
-
-- [ ] Mobile app (Flutter/React Native)
-- [ ] Advanced reporting dashboard with custom date ranges
-- [ ] Email marketing integration (Mailchimp, SendGrid campaigns)
-- [ ] SMS notifications (Twilio integration)
-- [ ] Equipment maintenance tracking
-- [ ] Nutrition plan management
-- [ ] Body composition analysis charts
-- [ ] Member mobile app for check-ins
-- [ ] Integration with fitness wearables (Fitbit, Apple Watch)
-- [ ] Multi-language admin panel
-- [ ] White-label customization per tenant
-- [ ] Advanced analytics (predictive churn modeling)
 
 ---
 
