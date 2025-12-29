@@ -541,14 +541,6 @@ SOFTWARE.
 
 ---
 
-## 👤 Author
-
-**Mujahid**
-
-- GitHub: [@MujahidAbbas](https://github.com/MujahidAbbas)
-
----
-
 ## 🙏 Acknowledgments
 
 - [Laravel Framework](https://laravel.com) - The PHP framework for web artisans
@@ -593,6 +585,6 @@ Future enhancements planned:
 
 **⭐ If you find this project helpful, please consider giving it a star!**
 
-Made with ❤️ by Mujahid
+Made with ❤️ by [Mujahid Abbas](https://github.com/MujahidAbbas)
 
 </div>
